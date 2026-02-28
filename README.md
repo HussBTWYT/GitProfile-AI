@@ -1,16 +1,64 @@
-# React + Vite
+# GitProfile AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitProfile AI is a web application that analyzes GitHub profiles using AI to generate recruiter-focused insights.  
+It helps developers understand how their profile appears from a hiring perspective and highlights strengths, gaps, and improvement opportunities.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔍 GitHub username analysis
+- 📊 AI-generated profile insights
+- 🧠 Recruiter-style evaluation summaries
+- 📌 Strengths and improvement suggestions
+- ⚡ Clean and modern UI built with React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend**
+- React
+- CSS Modules
+
+**Backend**
+- GitHub API integration
+- AI API integration
+
+---
+
+## 🎯 Purpose
+
+GitProfile AI was built to bridge the gap between developers and recruiters by transforming raw GitHub data into meaningful, actionable feedback.
+
+Instead of manually guessing what recruiters notice, users receive structured analysis that helps them improve their visibility and presentation.
+
+---
+
+## 📸 Preview
+
+(Add screenshots here once deployed)
+
+---
+
+## 🌍 Future Improvements
+
+- Detailed repository breakdowns
+- Contribution trend visualization
+- Skill detection and categorization
+- Resume export feature
+- Public shareable profile reports
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/HussBTWYT/gitprofile-ai.git
+cd gitprofile-ai
+npm install
+npm run dev
+```
+
+## 💬 Contact
+If you're interested in collaboration or feedback, feel free to reach out.
