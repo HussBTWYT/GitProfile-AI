@@ -37,7 +37,7 @@ Instead of manually guessing what recruiters notice, users receive structured an
 
 ## 📸 Preview
 
-(Add screenshots here once deployed)
+![Landing Page Screenshot][screenshots/ScreenshotPreview1.png]
 
 ---
 
