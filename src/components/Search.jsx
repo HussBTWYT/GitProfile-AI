@@ -9,9 +9,15 @@ export default function Search(){
                     <p>AI-powered GitHub profile analysis with recruiter-grade insights</p>
                 </div>
                 <div className={styles.searchBar}>
+                    
                     <input placeholder="Enter GitHub username..." />
-                    <button>Analyze &#8594;</button>
+                    <button><span>Analyze &#8594;</span></button>
                 </div>
+                
+                <div className={styles.footerText}>
+                    <p>Get AI-powered insights into GitHub profiles and coding skills</p>
+                </div>
+                
                 
             </div>
         </>

@@ -1,3 +1,81 @@
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.searchBar input:focus {
+    border-color: #6366f1;
+}
+
+.searchBar button:hover {
+    opacity: 0.9;
+
+}
+
+.searchBar button::before,
+.searchBar button::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.searchButton button::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.searchButton button:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+
+.searchBar input {
+    padding-left: 20px;
+
+    width: 700px;
+    height: 60px;
+
+    font-size: 18px;
+    font-family: "Segoe UI Semibold";
+
+    border-radius: 16px;
+    border: 1px solid rgb(229, 231, 235);
+
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    
+    outline: none;
+
+    
+
+}
+
+
+.searchBar button {
+    cursor: pointer;
+    position: static;
+    margin-left: -120px; /* pulls it visually into input */
+    height: 100%;
+    font-family: "Segoe UI Semibold";
+    padding: 15px;
+    border-radius: 16px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.4s;
+    
+}
+
 
 
 .texts {
@@ -21,4 +99,17 @@
 .texts p {
     color: white;
     margin-top: 20px;
+    font-size: 18px;
+}
+
+.footerText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText p {
+    font-weight: 600;
+    color: rgb(75, 85, 99);
+    font-size: 14px;
 }
