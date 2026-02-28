@@ -1,0 +1,48 @@
+* {
+    font-family: Inter;
+
+}
+
+.navLinks {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    list-style-type: none;
+    padding: 0x;
+    margin: 0px;
+    background-color: rgb(17,24,39);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
+.logo {
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
