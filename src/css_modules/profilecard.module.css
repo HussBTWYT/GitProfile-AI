@@ -1,0 +1,27 @@
+.profileCard {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: rgb(31,41,55);
+    margin: 40px;
+} 
+
+.profileIcon {
+    display: inline;
+}
+
+.profileName {
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    color: rgb(175,213,219);
+}
+
+.profileStats p {
+    display: inline;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
