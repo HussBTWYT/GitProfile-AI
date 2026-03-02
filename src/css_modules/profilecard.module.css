@@ -19,9 +19,27 @@ p {
     color: rgb(175,213,219);
 }
 
-.profileStats p {
-    display: inline;
-    margin-bottom: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+.profileStats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statNumber {
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    margin: 0;
+}
+
+.statLabel {
+    font-size: 18px;
+    margin: 0;
+    margin-top: 10px;
 }

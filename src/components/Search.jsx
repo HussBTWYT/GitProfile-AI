@@ -41,7 +41,7 @@ export default function Search({setProfile}){
                 <div className={styles.texts}>
                     
                     <h1>GitProfile AI</h1>
-                    <p>AI-powered GitHub profile analysis with recruiter-grade insights</p>
+                    <p>Instantly view GitHub profile statistics and developer activity</p>
                 </div>
                 <div className={styles.searchBar}>
                     <form onSubmit={handleSubmit}>
@@ -61,7 +61,7 @@ export default function Search({setProfile}){
                 </div>
                 
                 <div className={styles.footerText}>
-                    <p>Get AI-powered insights into GitHub profiles and coding skills</p>
+                    <p>Discover key information from public GitHub profiles</p>
                 </div>
                 
                 
