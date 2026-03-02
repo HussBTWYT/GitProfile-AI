@@ -1,17 +1,17 @@
 # GitProfile AI
 
-GitProfile AI is a web application that analyzes GitHub profiles using AI to generate recruiter-focused insights.  
-It helps developers understand how their profile appears from a hiring perspective and highlights strengths, gaps, and improvement opportunities.
+GitProfile is a web application that lets users quickly search and view public GitHub profile information.
+It provides an easy way to explore key details such as followers, repositories, and account statistics.
 
 ---
 
 ## 🚀 Features
 
-- 🔍 GitHub username analysis
-- 📊 AI-generated profile insights
-- 🧠 Recruiter-style evaluation summaries
-- 📌 Strengths and improvement suggestions
+- 🔍 GitHub username search
+- 📊 Display key profile statistics
+- 📌 View followers, following, and public repositories
 - ⚡ Clean and modern UI built with React
+- 🌐 Fetches live data from the GitHub API
 
 ---
 
@@ -22,16 +22,15 @@ It helps developers understand how their profile appears from a hiring perspecti
 - CSS Modules
 
 **Backend**
-- GitHub API integration
-- AI API integration
+- GitHub REST API integration
 
 ---
 
 ## 🎯 Purpose
 
-GitProfile AI was built to bridge the gap between developers and recruiters by transforming raw GitHub data into meaningful, actionable feedback.
+GitProfile was built to make it easy to explore public GitHub profiles and quickly see important account information.
 
-Instead of manually guessing what recruiters notice, users receive structured analysis that helps them improve their visibility and presentation.
+Instead of navigating multiple pages on GitHub, users can instantly search a username and view key statistics and profile details in a simple interface.
 
 ---
 
@@ -42,13 +41,12 @@ Instead of manually guessing what recruiters notice, users receive structured an
 
 ---
 
-## 🌍 Future Improvements
+🌍 Future Improvements
 
-- Detailed repository breakdowns
-- Contribution trend visualization
-- Skill detection and categorization
-- Resume export feature
-- Public shareable profile reports
+- Display user repositories
+- Repository sorting (stars, language, etc.)
+- Contribution activity visualization
+- Improved profile UI and layout
 
 ---
 
